@@ -3,7 +3,9 @@ package patterns.factory;
 public class Joker extends Npc {
 	
 	public Joker() {
-		this.setForca(25);
+		this.setForca(20);
+		this.setSaude(100);
+		this.setNome(NpcType.JOKER.name());
 	}
 
 }

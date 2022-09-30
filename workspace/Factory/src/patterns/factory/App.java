@@ -12,10 +12,11 @@ public class App {
 		Npc dragao = NpcFactory.create(NpcType.DRAGAO);
 		Npc anfitriao = NpcFactory.create(NpcType.ANFITRIAO);
 		
-		dragao.atacar();
-		joker.atacar();
+		//dragao.atacar();
+		//joker.atacar();
 		// anfitriao.atacar();
 		joker.atacar(dragao);
+		System.out.println("Saude dragao: " + dragao.getSaude());
 
 	}
 

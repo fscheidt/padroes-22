@@ -9,11 +9,15 @@ public abstract class Npc {
 	private boolean vivo;
 	private double forca;
 	
-	public double atacar() {
-		System.out.println("Atacando: " + this.forca);
-		// saude - forca
-		// joker ataca dragao:
-		// dragao.saude -= forca
+	public double atacar(Npc atacado) {
+		System.out.println(
+				this.nome + 
+				" Atacando  " +	atacado.getNome() +
+				" com forca: "+ this.forca
+				);
+		atacado.setSaude(
+				atacado.getSaude() - this.forca
+		);
 		return this.forca;
 	}
 	
