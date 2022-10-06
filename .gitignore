@@ -3,6 +3,8 @@
 *.7z
 .idea/
 
+env
+
 # Eclipse
 .classpath
 .project
