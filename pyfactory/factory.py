@@ -7,14 +7,20 @@ class NPC:
         self.nome = nome
     def atacar(self):
         pass
+    
+    def atualizar_saude(self, forca):
+        self.saude -= forca
+        print(f'{self.nome} saude: ', self.saude)
 
 class Dragao(NPC):
-    def atacar(self):
+    def atacar(self, oponente):
         print(f'{self.nome} atacando com forca {self.forca}')
+        oponente.atualizar_saude(self.forca)
 
 class Joker(NPC):
-    def atacar(self):
+    def atacar(self, oponente: NPC):
         print(f'{self.nome} atacando com forca {self.forca}')
+        oponente.atualizar_saude(self.forca)
 
 from enum import Enum
 class NpcType(Enum): 
@@ -37,8 +43,8 @@ if __name__ == '__main__':
     joker = Joker('joker', 140, 20)
     joker.atacar()
     '''
-    npc = NpcFactory.create(NpcType.DRAGAO)
-    npc.atacar()
+    dragao = NpcFactory.create(NpcType.DRAGAO)
+    joker = NpcFactory.create(NpcType.JOKER)
 
-    npc = NpcFactory.create(NpcType.JOKER)
-    npc.atacar()
+    dragao.atacar(joker)
+    joker.atacar(dragao)
