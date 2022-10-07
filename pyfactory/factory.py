@@ -38,6 +38,8 @@ class NpcFactory:
             return Dragao('dragao', 200, 30)
         if npc_type == NpcType.JOKER:
             return Joker('joker', 140, 20)
+            
+        return None
 
 
 if __name__ == '__main__':
