@@ -5,7 +5,8 @@ class NPC:
         self.saude = saude
         self.forca = forca
         self.nome = nome
-        
+        self.resistencia = 0
+
     def atacar(self):
         pass
 
@@ -30,12 +31,14 @@ class NpcType(Enum):
     ANFITRIAO = 3
 
 class NpcFactory:
+
     @staticmethod
-    def create(npc_type):
+    def create(npc_type: NpcType) -> NPC:
         if npc_type == NpcType.DRAGAO:
             return Dragao('dragao', 200, 30)
         if npc_type == NpcType.JOKER:
             return Joker('joker', 140, 20)
+
 
 if __name__ == '__main__':
     '''
