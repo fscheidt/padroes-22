@@ -5,9 +5,10 @@ class NPC:
         self.saude = saude
         self.forca = forca
         self.nome = nome
+        
     def atacar(self):
         pass
-    
+
     def atualizar_saude(self, forca):
         self.saude -= forca
         print(f'{self.nome} saude: ', self.saude)
