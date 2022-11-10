@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="/corrigir" method="POST">
+{% for questao in questoes %}
+<h1> {{ questao.titulo }} </h1>
+<div class="mb-3">
+    <label for="ex1" class="form-label">
+        Alternativa A
+    </label>
+    <input name="alternativa1" type="radio" class="form-control">
+</div>
+<input value="proximo" type="submit" class="btn btn-danger">
+{% endfor %}
+</form>
+<div>
+
+</div>
+{% endblock %}
