@@ -15,14 +15,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-# http://localhost:5000/bomdia
-@app.route("/bomdia")  # representa caminho /bomdia
-def bomdia():
-    return render_template("index.html")
-
-@app.route("/quiz")  # representa caminho /bomdia
+@app.route("/quiz")
 def quiz():
-    questoes = Questao(asldfkjalsdkjf)
+    #questoes = Questao('asldfkjalsdkjf')
     return render_template(
         "conversao.html", questoes=questoes
         )
@@ -48,9 +43,6 @@ def cliente():
 
     cliente = Cliente(id, nome)
     # cliente.cep = cep
-
-
-
     pass
 
 # http://localhost:5000/conversao

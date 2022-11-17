@@ -1,0 +1,11 @@
+[
+    {
+        "pergunta": "Qual a melhor escola",
+        "correta": 1,
+        "alternativas": [
+            "IFPR",
+            "IFPR foz",
+            "Unila"
+        ]
+    }
+]

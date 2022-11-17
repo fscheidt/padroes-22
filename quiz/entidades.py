@@ -6,9 +6,10 @@ class Produto:
     pass
 
 class Cliente:
-    def __init__(self, id, nome, cpf=None, cep=None):
+    def __init__(self, id, nome, alternativas, cpf=None, cep=None):
         # None == null
         self.id = id
+        self.alternativas = alternativas
         self.nome = nome
         self.cpf = cpf  # atributo opcional
         self.cep = cep  # atributo opcional
@@ -41,3 +42,10 @@ if __name__ == '__main__':
         data_nasc = datetime.now(),
         cep='4444'
     )
+
+
+guerreiros = {
+    'mago': 1,
+    'teste': 2 
+}
+num = guerreiros['mago']
