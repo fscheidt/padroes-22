@@ -2,9 +2,9 @@
 2022-2
 
 ## Padrões de projetos
-- [x] **Factory** 
+- [x] **[Factory](https://github.com/fscheidt/padroes-22/blob/master/pyfactory/factory.py)** 
 - [x] Singleton (garantir uma única instância de um classe )
-- [x] Facade (encapsulamento de componentes)
+- [x] [Facade](https://github.com/fscheidt/padroes-22/blob/master/pyfactory/facade.py) (encapsulamento de componentes)
 - [x] Decorator ( adicionar funcionalidades )
 - [x] [Adapter](https://github.com/fscheidt/padroes-22/blob/master/pyfactory/adapter.py) ( adaptar classes diferentes em uma mesma interface )
 - [ ] **Template** (roteiro genérico de execução a ser realizado em métodos semelhantes)
