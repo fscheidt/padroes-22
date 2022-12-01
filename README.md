@@ -8,7 +8,7 @@
 - [x] Decorator ( adicionar funcionalidades )
 - [x] [Adapter](https://github.com/fscheidt/padroes-22/blob/master/pyfactory/adapter.py) ( adaptar classes diferentes em uma mesma interface )
 - [ ] **Template** (roteiro genérico de execução a ser realizado em métodos semelhantes)
-- [ ] Observer ( notificação de eventos )
+- [ ] [Observer](https://github.com/fscheidt/padroes-22/blob/master/observer/observer.py) ( notificação de eventos )
 - [ ] Strategy
 
 ## Trabalho da disciplina
