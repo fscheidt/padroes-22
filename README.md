@@ -6,7 +6,7 @@
 - [x] Singleton (garantir uma única instância de um classe )
 - [x] Facade (encapsulamento de componentes)
 - [x] Decorator ( adicionar funcionalidades )
-- [x] Adapter ( adaptar classes diferentes em uma mesma interface )
+- [x] [Adapter](https://github.com/fscheidt/padroes-22/blob/master/pyfactory/adapter.py) ( adaptar classes diferentes em uma mesma interface )
 - [ ] **Template** (roteiro genérico de execução a ser realizado em métodos semelhantes)
 - [ ] Observer ( notificação de eventos )
 - [ ] Strategy
