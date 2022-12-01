@@ -3,11 +3,12 @@
 
 ## Padrões de projetos
 - [x] **Factory** 
-- [x] Singleton
+- [x] Singleton (garantir uma única instância de um classe )
 - [x] Facade (encapsulamento de componentes)
 - [x] Decorator ( adicionar funcionalidades )
-- [ ] **Template** (roteiro a ser seguido)
-- [ ] Observer
+- [x] Adapter ( adaptar classes diferentes em uma mesma interface )
+- [ ] **Template** (roteiro genérico de execução a ser realizado em métodos semelhantes)
+- [ ] Observer ( notificação de eventos )
 - [ ] Strategy
 
 ## Trabalho da disciplina
@@ -22,6 +23,3 @@
 
 
 ## [Slides](slides/)
-
-## Padrões
-- [Factory](workspace/Factory/)
