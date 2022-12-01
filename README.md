@@ -3,7 +3,7 @@
 
 ## Padrões de projetos
 - [x] **[Factory](https://github.com/fscheidt/padroes-22/blob/master/pyfactory/factory.py)** 
-- [x] Singleton (garantir uma única instância de um classe )
+- [x] [Singleton](https://github.com/fscheidt/padroes-22/blob/master/singleton/banco_de_dados.py) (garantir uma única instância de um classe )
 - [x] [Facade](https://github.com/fscheidt/padroes-22/blob/master/pyfactory/facade.py) (encapsulamento de componentes)
 - [x] Decorator ( adicionar funcionalidades )
 - [x] [Adapter](https://github.com/fscheidt/padroes-22/blob/master/pyfactory/adapter.py) ( adaptar classes diferentes em uma mesma interface )
