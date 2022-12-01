@@ -78,7 +78,7 @@ def main():
     
     cat = Cat()
     objects.append(Adapter(cat, make_noise=cat.meow))
-    
+
     human = Human()
     objects.append(Adapter(human, make_noise=human.speak))
 

@@ -20,6 +20,7 @@ class Dragao(NPC):
         oponente.atualizar_saude(self.forca)
 
 class Joker(NPC):
+    # TODO: risadinha
     def atacar(self, oponente: NPC):
         print(f'{self.nome} atacando com forca {self.forca}')
         oponente.atualizar_saude(self.forca)
